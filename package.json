@@ -1,6 +1,6 @@
 {
-  "name": "CommonInterfaces",
-  "version": "1.0.0",
+  "name": "common-interfaces",
+  "version": "1.0.1",
   "description": "Common TypeScript interfaces used for communication among different services",
   "repository": "https://www.github.com/emanguy/QuestTracker-CommonInterfaces",
   "author": "Evan Rittenhouse <emanguy1@gmail.com>",
@@ -8,5 +8,8 @@
   "private": true,
   "dependencies": {
     "typescript": "^3.1.1"
+  },
+  "scripts": {
+    "build": "tsc"
   }
 }
