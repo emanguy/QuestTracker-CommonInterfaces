@@ -36,6 +36,7 @@ export interface Objective extends RestBodyObjective {
 
 export interface RestBodyQuest {
     visible: boolean
+    name: string
     sourceRegion: string
     questType: QuestType
     objectives: Objective[]
