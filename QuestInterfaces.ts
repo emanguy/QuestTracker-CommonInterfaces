@@ -49,6 +49,7 @@ export interface Quest extends RestBodyQuest {
 }
 
 export interface RestBodyQuestUpdate {
+    name?: string
     visible?: boolean
     sourceRegion?: string
     questType?: QuestType
